@@ -1,0 +1,739 @@
+/* ::-webkit-scrollbar{
+    width:8px;
+    border-radius: 20px;
+
+}
+::-webkit-scrollbar-thumb{
+    background:linear-gradient(90deg,#50FF76,#51FFE0 ) ;
+
+}
+::-webkit-scrollbar-track{
+    background-color: black;
+} */
+
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+@font-face{
+    font-family: "Gilroy";
+    src:url(/fonts/Gilroy-Medium.ttf)
+}
+@font-face{
+    font-family: "Gilroy-Light";
+    src: url(/fonts/Gilroy-Light.ttf);
+}
+@font-face{
+    font-family: "Toledo";
+    src:url(/fonts/toledo-serial-bold.ttf)
+}
+@font-face{
+    font-family: "Anko";
+    src:url(/fonts/Anko-PersonalUse-Medium.otf)
+}
+#wrapper{
+    background-color: black;
+    width:100%;
+    height: 4980px;
+}
+#headerSection .headerLogo{
+    float:left;
+    margin-left: 68px;
+    margin-top:33px;
+    position: fixed;
+
+}
+
+
+#navBar ul{
+    float:right;
+    margin-top: 50px;
+    margin-left: 310px;
+    position: fixed;
+}
+#navBar ul li{
+    display: inline-block;
+    margin-left: 60px;
+
+}
+#navBar ul li a{
+    text-decoration: none;
+    font-family: "Gilroy";
+    color: white;
+    font-size: 16px;
+}
+#navBar ul li a:hover{
+    /* color:aquamarine; */
+    background-image: linear-gradient(to right,#50FF76 , #51FFE0);
+    background-clip: text;
+    color: transparent;
+}
+#bannerSection{
+    width: 100%;
+    height: 518px;
+    padding-top: 110px;
+    background-color: rgb(4, 4, 4);
+    clear: both;
+}
+#bannerSection .iM{
+    float: left;
+    color: white;
+    font-size:40px;
+    padding-top: 160px;
+    padding-left: 290px;
+    font-family: "Anko";
+    z-index: 999;
+
+}
+#bannerSection .Name{
+    float: left;
+    background-image: linear-gradient(to right,#50FF76 , #51FFE0);
+    background-clip: text;
+    color: transparent;
+    font-size: 90px;
+    padding-bottom: 1px;
+    padding-left: 210px;
+    position: absolute;
+    margin-top: 180px;
+    font-family: "Toledo";
+
+}
+#bannerSection .Title{
+    float: left;
+    color: white;
+    font-size:30px;
+    padding-top: 70px;
+    padding-left: 300px;
+    font-family: "Anko";
+    position: absolute;
+    margin-top: 190px;
+    margin-left: 60px;
+    font-family: "Anko";
+}
+span.dot{
+    color:#51FFE0;
+    font-size: 50px;
+}
+hr{
+    float: left;
+    margin-top: 303px;
+    margin-left: 0px;
+    padding-right: 345px;
+    height:1px;
+    background-image: linear-gradient(90deg,#50FF76,#51FFE0 );
+    position: absolute;
+    border: 0;
+
+}
+.bannerImage{
+    float: right;
+    clear: both;
+    margin-top: 20px;
+    margin-right: 20px;
+    height:550px;
+    width: 680px;
+}
+#aboutSection{
+    width: 100%;
+    height: 600px;
+}
+.Vl{
+    color: transparent;
+    height: 420px;
+    position: absolute;
+    float: left;
+    margin-left:87px;
+    margin-top: 150px;
+    border: 1px solid transparent;
+    border-image: linear-gradient(180deg,#50FF76 , #51FFE0);
+    border-image-slice: 1;
+             
+   
+
+}
+
+.Icons{
+   position: absolute;
+   margin-left: 63px;
+   margin-top: 580px;
+}
+.Bh{
+    margin-top: 2px;
+    margin-left: 11px;
+    height: 35px;
+}
+.Ig{
+    margin-left: 8px;
+    height: 35px;
+}
+.Li{
+    margin-left: 10px;
+    height: 30px;
+}
+.aboutImage{
+    float: left;
+    transform: scalex(-1) ;
+    padding-right: 180px;
+    margin-top: 110px;
+    clear: both;
+    height: 500px;
+    position: relative;
+   
+}
+
+#aboutSection .Name{
+    float: right;
+    background-image: linear-gradient(to right,#50FF76 , #51FFE0);
+    background-clip:text;
+    color: transparent;
+    font-size: 90px;
+    font-family: "Toledo";
+    margin-top: 70px;
+    padding-right: 150px;
+}
+.aboutBrief{
+    margin-top: 30px;
+    margin-right: 150px;
+    color: white;
+    text-align: right;
+    font-size: 23px;
+    font-family: "Anko";
+}
+#aboutMe{
+    width:56%;
+    height:200px;
+    float: right;
+}
+#experience{
+    float: left;
+    color: white;
+    margin-top: 490px;
+    margin-left: 300px;
+    position: absolute;
+
+}
+
+.Five{
+    font-size: 160px;
+    font-family: "Gilroy";
+    background-image: linear-gradient(to right,#50FF76 , #51FFE0);
+    background-clip: text;
+    color: transparent;
+    font-weight: bold;
+    margin-bottom: 70px;
+    position:absolute;
+    display: inline;
+}
+.plus{
+    font-size: 160px;
+    font-family: "Gilroy";
+    background-image: linear-gradient(to right,#50FF76 , #51FFE0);
+    background-clip: text;
+    color: transparent;
+    font-weight: bold;
+    position: absolute;
+    display: inline;
+    margin-left:95px;
+    margin-top: -20px;
+ 
+}
+.Years{
+    clear: both;
+    float: right;
+    font-family: "Gilroy-light";
+    margin-top: 125px;
+    margin-left: 100px;
+    font-size: 30px;
+}
+.Exp{
+    position: absolute;
+    font-family: "Gilroy-light";
+    font-size: 35px;
+    margin-top: 160px;
+    margin-left: 10px;
+}
+
+.Ten{
+    font-family: "Gilroy";
+    font-size: 60px;
+    font-weight: bold;
+    background-image: linear-gradient(to right,#50FF76 , #51FFE0);
+    background-clip: text;
+    color: transparent;
+}
+.abc{
+    display: inline-flex;
+}
+.project{
+    font-family: "Gilroy-light";
+    font-size: 25px;
+    
+}
+#Projects{
+    color:white;
+    float: left;
+    padding-top: 50px;
+    padding-left: 100px;
+}
+#Companies{
+    color: white;
+    padding-top: 50px;
+    padding-left:140px;
+
+}
+#Countries{
+    color:white;
+    padding-top: 50px;
+    padding-left: 120px;
+
+}
+#Education{
+    width:100%;
+    clear: both;
+    height:700px;
+
+    
+}
+#Image{
+    float: left;
+    margin-top: 30px ;
+    padding-left: 350px;
+    clear: both;
+}
+.Heading{
+    float: left;
+    background-image: linear-gradient(to right,#50FF76 , #51FFE0);
+    background-clip:text;
+    color: transparent;
+    font-size: 50px;
+    font-family: "Toledo";
+    margin-left: 150px;
+    margin-top: 170px;
+
+}
+.Course{
+    color: white;
+    font-family: "Anko";
+    font-size: 35px;
+    background-image: linear-gradient(to right,#50FF76 , #51FFE0);
+    background-clip:text;
+    color: transparent;
+    
+}
+.Place{
+    color: white;
+    font-family: "Gilroy-Light";
+    font-size: 35px;
+}
+.emblem{
+    float: left;
+    position: absolute;
+    margin-top: 32px;
+    height: 50px;
+}
+.Underline{
+    float: left;
+    margin-top: 130px;
+    width: 55%;
+
+}
+#Nehru{
+    clear: both;
+}
+.nehruEmblem{
+    float: left;
+    position: absolute;
+    margin-top: 32px;
+    clear: both;
+    height: 80px;
+}
+.Heading2{
+    margin-top: 60px;
+    clear: both;
+    margin-left: 150px;
+}
+.year2{
+    color:white;
+    margin-left:350px;
+}
+.year1{
+    color:white;
+    margin-left:370px;
+}
+.year3{
+    color:white;
+    margin-left:450px;
+}
+#Contact{
+    margin-top: 100px;
+}
+.help{
+    color: white;
+    font-size: 50px;
+    font-family: "Toledo";
+    text-align: center;
+    padding-top: 100px;
+
+}
+.reach{
+    clear: both;
+    float: left;
+    font-family: "Anko";
+    font-size: 35px;
+    background-image: linear-gradient(to right,#50FF76 , #51FFE0);
+    background-clip:text;
+    color: transparent;
+    margin-top: 2px;
+    margin-left: 610px;
+}
+#Personalinfo{
+    margin-top: 70px;
+    margin-left: 500px;
+}
+input[type='text']{
+    display: block;
+    background-color:transparent;
+    border: none;
+    margin-top: 50px;
+    width: 500px;
+    font-size: 24px;
+    font-family: "Gilroy-Light";
+    line-height: normal;
+    padding: 10px;
+    border-bottom: 1px solid transparent;
+    border-image: linear-gradient(to right,#50FF76 , #51FFE0);
+    border-image-slice: 1;
+    color: white;
+
+}
+input:focus{
+    outline: none;
+   
+
+}
+::placeholder{
+    color:white;
+    padding-bottom: 40px;
+}
+#Contactinfo{
+    margin-top: 25px;
+}
+.Email{
+    font-size: 35px;
+    color: white;
+    font-family: "Toledo";
+    text-align: center;
+}
+.Phnumber{
+    clear: both;
+    float: left;
+    font-size: 30px;
+    background-image: linear-gradient(to right,#50FF76 , #51FFE0);
+    background-clip:text;
+    color: transparent;
+    font-family: "Anko";
+    margin-top: 15px;
+    margin-left: 675px ;
+    position: absolute;
+
+}
+#submit{
+    text-align: center;
+    margin-top: 50px;
+}
+input[type='submit']{
+    width: 230px;
+    height: 40px;
+    background-image: linear-gradient(90deg,#50FF76,#51FFE0 );
+    border: none;
+    border-radius: 10px;
+    font-family: "Gilroy";
+    font-size: 20px;
+}
+.uiux{
+margin-top: 200px;
+margin-bottom: 100px;
+}
+#Expertise{    
+    width:100%;
+    clear: both;
+    height:700px;
+    
+}
+.MTitle{
+    color: white;
+    font-size: 50px;
+    font-family: "Toledo";
+    margin-left: 650px;
+    padding-top: 100px;
+}
+#Graphic{
+    margin-top: 40px;
+    margin-left: 330px;
+    
+}
+#GraphicMobile{
+    display: none;
+}
+.GD{
+    display: inline-block;
+    font-size: 14px;
+    font-family: "Gilroy-Light";
+    color: white;
+    padding-top: 10px;
+
+}
+img{
+    padding-right: 100px;
+    height: 80px;
+}
+
+#UI{
+    margin-top: 70px;
+    margin-right: 200px;
+    margin-left: 550px;
+}
+.STitle{
+    display: none;
+}
+.STitle1{
+    float: left;
+    font-size: 30px;
+    background-image: linear-gradient(to right,#50FF76 , #51FFE0);
+    background-clip:text;
+    color: transparent;
+    font-family: "Gilroy";
+    padding-top: 50px;
+    margin-left: 630px;
+
+}
+.STitle2{
+    float:left;
+    font-size: 30px;
+    background-image: linear-gradient(to right,#50FF76 , #51FFE0);
+    background-clip:text;
+    color: transparent;
+    font-family: "Gilroy";
+    margin-top: 40px;
+    margin-left: 700px;
+}
+.STitle3{
+    float: left;
+    font-size: 30px;
+    background-image: linear-gradient(to right,#50FF76 , #51FFE0);
+    background-clip:text;
+    color: transparent;
+    font-family: "Gilroy";
+    padding-top: 50px;
+    margin-left: 650px;
+}
+.Logo{
+    margin-right: 30px;
+}
+#Portfolio{
+    height: 700px;
+    width: 100%;
+    margin-top: 100px;
+}
+.Heading1{
+    clear: both;
+    float: left;
+    background-image: linear-gradient(to right,#50FF76 , #51FFE0);
+    background-clip:text;
+    color: transparent;
+    font-size: 50px;
+    font-family: "Toledo";
+    margin-top:120px;
+    margin-bottom: 40px;
+    margin-left: 650px;
+
+}
+.container{
+    width: 90%;
+    padding-left: 150px;
+    margin-top: 40px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.box1{
+    width: 250px;
+    height: 150px;
+    margin-right: 190px;
+    /* border: 2px solid green; */
+    border-radius: 20px 20px 20px 20px;
+    background:url("./images/Artboard\ 1\ 1.png");
+    background-size: cover;
+    transition: all;
+    
+}
+.box1:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+.box2{
+    width: 250px;
+    height: 150px;
+    margin-right: 190px;
+    /* border: 2px solid green; */
+    border-radius: 20px 20px 20px 20px;
+    background:url("./images/Artboard\ 1.png");
+    background-size: cover;
+}
+.box2:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+.box3{
+    width: 250px;
+    height: 150px;
+    margin-right: 190px;
+    /* border: 2px solid green; */
+    border-radius: 20px 20px 20px 20px;
+    background:url("./images/Artboard.png");
+    background-size: cover;
+}
+.box3:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+.box4{
+    width: 250px;
+    height: 150px;
+    margin-right: 190px;
+    /* border: 2px solid green; */
+    border-radius: 20px 20px 20px 20px;
+    background:url("./images/Artboar.png");
+    background-size: cover;
+}
+.box4:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+.box5{
+    width: 250px;
+    height: 150px;
+    margin-right: 190px;
+    /* border: 2px solid green; */
+    border-radius: 20px 20px 20px 20px;
+    background:url("./images/Artboa.png");
+    background-size: cover;
+}
+.box5:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+.box6{
+    width: 250px;
+    height: 150px;
+    margin-right: 190px;
+    /* border: 2px solid green; */
+    border-radius: 20px 20px 20px 20px;
+    background:url("./images/Artbo.png");
+    background-size: cover;
+}
+.box6:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+.box7{
+    width: 250px;
+    height: 150px;
+    margin-right: 190px;
+    /* border: 2px solid green; */
+    border-radius: 20px 20px 20px 20px;
+    background:url("./images/ui1.jpg");
+    background-size: cover;
+}
+.box7:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+.box8{
+    width: 250px;
+    height: 150px;
+    margin-right: 190px;
+    /* border: 2px solid green; */
+    border-radius: 20px 20px 20px 20px;
+    background:url("./images/ui3.jpg");
+    background-size: cover;
+}
+.box8:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+.box9{
+    width: 250px;
+    height: 150px;
+    margin-right: 190px;
+    /* border: 2px solid green; */
+    border-radius: 20px 20px 20px 20px;
+    background:url("./images/ui2.jpg");
+    background-size: cover;
+}
+.box9:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+.bottombox{
+    width: 250px;
+    height: 45px;
+    margin-top: 107px;
+    border-radius: 0px 0px 20px 20px;
+    backdrop-filter: blur(10px);
+    transition: width 10s height 10s;
+}
+ 
+
+.GD1{
+    font-size: 12px;
+    font-family: "Gilroy-Light";
+    color: white;
+    padding-top: 14px;
+    margin-left: 17px;
+    position: relative;
+}
+.Iconlink{
+    position: absolute;
+    float: right;
+    padding-left: 210px;
+    margin-top: -20px;
+    height: 25px;
+}
+
+.container2{
+    width: 90%;
+    margin-left: 150px;
+    margin-top: 100px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.container3{
+    width: 90%;
+    padding-left: 150px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}

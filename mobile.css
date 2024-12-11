@@ -1,0 +1,666 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+@font-face{
+    font-family: "Gilroy";
+    src:url(/fonts/Gilroy-Medium.ttf)
+}
+@font-face{
+    font-family: "Gilroy-Light";
+    src: url(/fonts/Gilroy-Light.ttf);
+}
+@font-face{
+    font-family: "Toledo";
+    src:url(/fonts/toledo-serial-bold.ttf)
+}
+@font-face{
+    font-family: "Anko";
+    src:url(/fonts/Anko-PersonalUse-Medium.otf)
+}
+#wrapper{
+    background-color: black;
+    width:100%;
+    height: 5320px;
+}
+#headerSection{
+    position: fixed;
+}
+#headerSection .headerLogo{
+    float:left;
+    margin-left:30px;
+    margin-top:30px;
+    position: fixed;
+}
+
+.Hamburger{
+    float: right;
+    clear: both;
+    margin-top: 33px;
+    margin-left: 350px;
+    position: fixed;
+}
+
+#navBar ul{
+    display: none;
+}
+#bannerSection{
+    width: 100%;
+    height: 700px;
+    /* padding-top: 110px; */
+    background-color: rgb(4, 4, 4);
+    clear: both;
+}
+#bannerSection .iM{
+    float: left;
+    color: white;
+    font-size:35px;
+    padding-top: 130px;
+    padding-left: 120px;
+    font-family: "Anko";
+    z-index: 999;
+    position: absolute;
+
+}
+#bannerSection .Name{
+    float: left;
+    background-image: linear-gradient(to right,#50FF76 , #51FFE0);
+    background-clip: text;
+    color: transparent;
+    font-size: 50px;
+    padding-bottom: 50px;
+    padding-left: 70px;
+    margin-top: 150px;
+    position: absolute;
+    font-family: "Toledo";
+
+}
+#bannerSection .Title{
+    float: left;
+    color: white;
+    font-size:15px;
+    padding-top: 65px;
+    padding-left: 50px;
+    font-family: "Anko";
+    position: absolute;
+    margin-top: 135px;
+    margin-left: 122px;
+    font-family: "Anko";
+}
+span.dot{
+    color:#51FFE0;
+    font-size: 20px;
+}
+
+hr{
+    float: left;
+    margin-top: 217px;
+    margin-left: 0px;
+    padding-right: 165px;
+    height:1px;
+    background-image: linear-gradient(90deg,#50FF76,#51FFE0 );
+    position: absolute;
+    border: 0;
+}
+
+#aboutSection{
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+
+#aboutMe{
+    width:88%;
+    height:700px;
+    position: absolute;
+}
+.bannerImage{
+    clear: both;
+    margin-top: 270px;
+    padding-left: 20px;
+    height:320px;
+    width: 400px;
+    /* padding-left: 80px; */
+}
+
+.aboutImage{
+
+    transform: scalex(-1) ;
+    padding-right: 120px;
+    margin-top: 90px;
+    clear: both;
+    height: 230px;
+    position: absolute;
+}
+
+#experience{
+    float: left;
+    color: white;
+    margin-top: 190px;
+    margin-left: 150px;
+    position: absolute;
+}
+
+.Vl{
+    display: none;
+}
+.Icons{
+    display: none;
+}
+.Five{
+    font-size: 95px;
+    font-family: "Gilroy";
+    background-image: linear-gradient(to right,#50FF76 , #51FFE0);
+    background-clip: text;
+    color: transparent;
+    font-weight: bold;
+    position:absolute;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.plus{
+    font-size: 77px;
+    font-family: "Gilroy";
+    background-image: linear-gradient(to right,#50FF76 , #51FFE0);
+    background-clip: text;
+    color: transparent;
+    font-weight: bold;
+    position: absolute;
+    margin-left:65px;
+    margin-top: 2px;
+ 
+}
+.Years{
+    clear: both;
+    float: right;
+    font-family: "Gilroy-light";
+    margin-top: 75px;
+    margin-left: 65px;
+    font-size: 18px;
+}
+.Exp{
+    position: absolute;
+    font-family: "Gilroy-light";
+    font-size: 21px;
+    margin-top: 100px;
+    margin-left: 5px;
+}
+.aboutBrief{
+    margin-top: 375px;
+    margin-left: 55px;
+    color: white;
+    font-size: 14px;
+    font-family: "Anko";
+}
+
+
+#aboutSection .Name{
+    float: left;
+    background-image: linear-gradient(to right,#50FF76 , #51FFE0);
+    background-clip:text;
+    color: transparent;
+    font-size: 40px;
+    font-family: "Toledo";
+    margin-top: 315px;
+    margin-left: 55px;
+}
+
+.Ten{
+    font-family: "Gilroy";
+    font-size: 40px;
+    font-weight: bold;
+    background-image: linear-gradient(to right,#50FF76 , #51FFE0);
+    background-clip: text;
+    color: transparent;
+}
+
+.abc{
+    display: inline-flex;
+}
+.project{
+    font-family: "Gilroy-light";
+    font-size: 18px;
+    
+}
+#Projects{
+    color:white;
+    float: left;
+    padding-top: 20px;
+    padding-left: 45px;
+}
+#Companies{
+    color: white;
+    padding-top: 20px;
+    padding-left:40px;
+
+}
+#Countries{
+    color:white;
+    padding-top: 20px;
+    padding-left: 40px;
+
+}
+
+.abc{
+    display: inline-flex;
+    margin-left: 10px;
+}
+
+
+.Iconlink{
+    display: none;
+}
+
+ #Portfolio{
+    height: 700px;
+    width: 100%;
+    margin-top: 100px;
+    position: relative;
+} 
+
+.Heading1{
+    clear: both;
+    float: left;
+    background-image: linear-gradient(to right,#50FF76 , #51FFE0);
+    background-clip:text;
+    color: transparent;
+    font-size: 50px;
+    font-family: "Toledo";
+    margin-top:120px;
+    margin-left: 125px;
+    
+}
+
+
+.container .box1,.box3,.box4,.box5,.box6{
+    display: none;
+}
+.box2{
+    clear: both;
+    width: 280px;
+    height: 320px;
+    margin-top:200px;
+    margin-left: 72px;
+    border-radius: 20px 20px 20px 20px;
+    background:url("./images/Mask\ group.png");
+    background-size: 100%;
+    position: absolute;
+}
+.box2:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+.bottombox{
+    width: 280px;
+    height: 70px;
+    margin-top: 252px;
+    border-radius: 0px 0px 20px 20px;
+    backdrop-filter: blur(10px);
+    transition: width 10s height 10s;
+    position: absolute;
+}
+ 
+
+.GD1{
+    font-size: 14px;
+    font-family: "Gilroy-Light";
+    color: white;
+    padding-top: 25px;
+    margin-left: 25px;
+    position: relative;
+}
+.STitleP{
+    float: left;
+    font-size: 30px;
+    background-image: linear-gradient(to right,#50FF76 , #51FFE0);
+    background-clip:text;
+    color: transparent;
+    font-family: "Gilroy";
+    padding-top: 50px;
+    margin-left: 110px;
+    margin-top: 330px;
+
+}
+.STitile4s{
+    float: left;
+    clear: both;
+    font-size: 22px;
+    background-image: linear-gradient(to right,#50FF76 , #51FFE0);
+    background-clip:text;
+    color: transparent;
+    font-family: "Gilroy";
+    margin-top: 120px;
+    position: absolute;
+}
+
+.STitle1{
+    display: none;
+
+}
+
+
+.uiux{
+    width:100%;
+    height: 650px;
+    position: relative;
+}
+.Heading3{
+    clear: both;
+   float: left;
+   background-image: linear-gradient(to right,#50FF76 , #51FFE0);
+   background-clip:text;
+   color: transparent;
+   font-size: 50px;
+   font-family: "Toledo";
+   margin-top:120px;
+   margin-left: 125px;
+   
+}
+.container3.box7.box9{
+    display: none;
+}
+.box9 .bottombox{
+    display: none;
+}
+.box7 .bottombox{
+    display: none;
+}
+
+.box8{
+    clear: both;
+    width: 280px;
+    height: 320px;
+    margin-top:200px;
+    margin-left: 72px;
+    border-radius: 20px 20px 20px 20px;
+    background:url("./images/Mask.png");
+    background-size: 100%;
+    position: absolute;
+}
+
+.STitle3{
+    float: left;
+    font-size: 30px;
+    background-image: linear-gradient(to right,#50FF76 , #51FFE0);
+    background-clip:text;
+    color: transparent;
+    font-family: "Gilroy";
+    padding-top: 50px;
+    margin-left: 120px;
+    margin-top: 530px;
+    position: absolute;
+}
+#Expertise{    
+    width:100%;
+    clear: both;
+    height:750px;
+    
+}
+
+#Expertise .MTitle{
+    color: white;
+    font-size: 50px;
+    font-family: "Toledo";
+    margin-left: 110px;
+    padding-top: 120px;
+}
+
+
+#Graphic{
+    display: none;
+
+}
+#GraphicMobile{
+    display: block;
+    margin-top: 80px;
+    margin-left: 130px;
+}
+
+.GD{
+    display: inline-block;
+    font-size: 30px;
+    font-family: "Gilroy-Light";
+    color: white;
+}
+
+.STitle{
+    float: left;
+    clear: both;
+    font-size: 22px;
+    background-image: linear-gradient(to right,#50FF76 , #51FFE0);
+    background-clip:text;
+    color: transparent;
+    font-family: "Gilroy";
+    margin-left: 122px;
+    margin-top: 370px;
+    position: absolute;
+
+}
+
+#UI{
+    display: none;
+}
+
+.GD2{
+    display: inline-block;
+    font-size: 30px;
+    font-family: "Gilroy-Light";
+    color: white;
+    text-align: center;
+}
+
+.STitile4{
+    float: left;
+    clear: both;
+    font-size: 22px;
+    background-image: linear-gradient(to right,#50FF76 , #51FFE0);
+    background-clip:text;
+    color: transparent;
+    font-family: "Gilroy";
+    margin-left: 50px;
+    margin-top: 120px;
+    position: absolute;
+}
+
+#Education{
+    width:100%;
+    height:700px;
+    margin-top: 200px;
+
+    
+}
+#Image{
+    float: left;
+    margin-top: 40px ;
+    padding-left: 140px;
+    clear: both;
+}
+.Heading{
+    float: left;
+    background-image: linear-gradient(to right,#50FF76 , #51FFE0);
+    background-clip:text;
+    color: transparent;
+    font-size: 50px;
+    font-family: "Toledo";
+    margin-left: 80px;
+    margin-top: 200px;
+    position: relative;
+
+}
+
+.Course{
+    color: white;
+    font-family: "Anko";
+    font-size: 15px;
+    background-image: linear-gradient(to right,#50FF76 , #51FFE0);
+    background-clip:text;
+    color: transparent;
+    
+}
+
+.enter2{
+    color: white;
+    font-family: "Anko";
+    font-size: 15px;
+    background-image: linear-gradient(to right,#50FF76 , #51FFE0);
+    background-clip:text;
+    color: transparent;
+}
+
+
+.enter2::before{
+    content: "\A";
+    white-space: pre;
+}
+
+
+.Place{
+    color: white;
+    font-family: "Gilroy-Light";
+    font-size: 15px;
+}
+.enter{
+    color: white;
+    font-family: "Gilroy-Light";
+    font-size: 15px;
+}
+.enter::before{
+    content: "\A";
+    white-space: pre;
+}
+
+.emblem{
+    float: left;
+    position: absolute;
+    margin-top: 42px;
+    margin-right: 20px;
+    height: 22px;
+}
+.Underline{
+    float: left;
+    margin-top: 130px;
+    width: 55%;
+    display: none;
+
+}
+#Nehru{
+    clear: both;
+}
+.nehruEmblem{
+    float: left;
+    position: absolute;
+    margin-top: 32px;
+    clear: both;
+    height:50px;
+}
+.Heading2{
+    margin-top: 60px;
+    clear: both;
+    margin-left: 70px;
+}
+.year2{
+    color:white;
+    margin-left: 66px;
+    
+}
+.year1{
+    color:white;
+    margin-left: 70px;
+}
+.year3{
+    color:white;
+    margin-left:98px;
+}
+
+
+#Contact{
+    margin-top: 20px;
+}
+.help{
+    color: white;
+    font-size: 30px;
+    font-family: "Toledo";
+    text-align: center;
+    padding-top: 80px;
+
+}
+.reach{
+    clear: both;
+    float: left;
+    font-family: "Anko";
+    font-size: 25px;
+    background-image: linear-gradient(to right,#50FF76 , #51FFE0);
+    background-clip:text;
+    color: transparent;
+    margin-top: 2px;
+    margin-left: 110px;
+}
+#Personalinfo{
+    margin-top: 70px;
+    margin-left: 100px;
+}
+input[type='text']{
+    display: block;
+    background-color:transparent;
+    border: none;
+    margin-top: 30px;
+    width: 200px;
+    font-size: 14px;
+    font-family: "Gilroy-Light";
+    line-height: normal;
+    padding: 10px;
+    border-bottom: 1px solid transparent;
+    border-image: linear-gradient(to right,#50FF76 , #51FFE0);
+    border-image-slice: 1;
+    color: white;
+
+}
+input:focus{
+    outline: none;
+   
+
+}
+::placeholder{
+    color:white;
+    padding-bottom: 40px;
+}
+#Contactinfo{
+    margin-top: 25px;
+}
+.Email{
+    margin-top: 50px;
+    font-size: 17px;
+    color: white;
+    font-family: "Toledo";
+    text-align: center;
+}
+.Phnumber{
+    clear: both;
+    float: left;
+    font-size: 33px;
+    background-image: linear-gradient(to right,#50FF76 , #51FFE0);
+    background-clip:text;
+    color: transparent;
+    font-family: "Anko";
+    margin-top: 5px;
+    margin-left: 122px ;
+    position: absolute;
+
+}
+#submit{
+    text-align: center;
+    margin-top: 40px;
+}
+input[type='submit']{
+    width: 130px;
+    height: 40px;
+    background-image: linear-gradient(90deg,#50FF76,#51FFE0 );
+    border: none;
+    border-radius: 10px;
+    font-family: "Gilroy";
+    font-size: 15x;
+}
